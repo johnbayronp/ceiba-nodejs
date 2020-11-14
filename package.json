@@ -1,0 +1,26 @@
+{
+  "name": "nodejsceiba",
+  "version": "1.0.0",
+  "description": "Prueba tecnica ceiba ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js "
+  },
+  "keywords": [
+    "nodejs",
+    "developer"
+  ],
+  "author": "Jhon Bayron Perez",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
